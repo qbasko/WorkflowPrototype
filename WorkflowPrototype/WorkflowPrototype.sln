@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Publisher", "EasyNetQSample
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscriber", "EasyNetQSample1\Subscriber\Subscriber.csproj", "{04820FD0-7FE2-488C-A9B2-9EEBC372F13C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AkkeNetSamples", "AkkeNetSamples", "{A0C519B3-33EC-4FB9-AC45-E5126E3E4A76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkkaNetPersistenceSample", "AkkaNetPersistenceSample\AkkaNetPersistenceSample.csproj", "{ECB63F75-0748-4650-BBD6-9F5ED4060CC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,13 +45,19 @@ Global
 		{04820FD0-7FE2-488C-A9B2-9EEBC372F13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04820FD0-7FE2-488C-A9B2-9EEBC372F13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04820FD0-7FE2-488C-A9B2-9EEBC372F13C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB63F75-0748-4650-BBD6-9F5ED4060CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB63F75-0748-4650-BBD6-9F5ED4060CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB63F75-0748-4650-BBD6-9F5ED4060CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB63F75-0748-4650-BBD6-9F5ED4060CC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{4941697B-CFC2-42EB-8386-BB79BEAA6512} = {A0C519B3-33EC-4FB9-AC45-E5126E3E4A76}
 		{D266247D-90EE-46BB-AAE3-801ED6BBE1E1} = {77C54F43-502E-46F9-A3CF-4C42177A0F32}
 		{68FEE2CA-6B61-4CE5-B51C-51D6CAF78BA7} = {77C54F43-502E-46F9-A3CF-4C42177A0F32}
 		{04820FD0-7FE2-488C-A9B2-9EEBC372F13C} = {77C54F43-502E-46F9-A3CF-4C42177A0F32}
+		{ECB63F75-0748-4650-BBD6-9F5ED4060CC0} = {A0C519B3-33EC-4FB9-AC45-E5126E3E4A76}
 	EndGlobalSection
 EndGlobal
